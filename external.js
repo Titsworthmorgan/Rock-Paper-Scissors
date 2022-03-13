@@ -1,4 +1,4 @@
-const OPTIONS = ['Rock', 'Paper', 'Scissors'];
+const OPTIONS = ['rock', 'paper', 'scissors'];
 let selection = OPTIONS[Math.floor(Math.random() * 3)];
 
 
