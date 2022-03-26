@@ -1,17 +1,26 @@
+// function resetGame () {
+//     const reset =document.quary 
+// }
 
 
 
 
-
-// -- Old code --
+// // -- Old code --
 
 // const OPTIONS = ['rock', 'paper', 'scissors'];
 // let selection = OPTIONS[Math.floor(Math.random() * 3)];
+// const images = document.querySelectorAll('image');
+// const click = document.querySelectorAll('image');
+// images.forEach(click => click.addEventListener('click'));
+
+// function selector(e) {
+
+// }
 
 
 // function gameRound(){
 //     let compChoice = selection;
-//     let playerChoice = prompt();
+//     let playerChoice = window.addEventListener()
 
 //     switch(playerChoice) {
 //     case compChoice: {
@@ -82,4 +91,4 @@
 
 // game();
 
-// -- end old code --
+// // -- end old code --
