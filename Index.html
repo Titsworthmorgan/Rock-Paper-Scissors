@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Rock-Paper-Scissors/styles.css">
+    <script src="external.js"></script>
 </head>
 <body>
-    <script src="external.js"></script>
+    <div class="score">
+        <h1 class="ties">ties: 0</h1>
+    </div>
+    <div class="winnderDiv">
+        <h1 class="winner"></h1>
+        <button class="reset" onclick="resetGame()">Play Again?</button>
+    </div>
+    <div class="playerSection">
+        <h3 class="playerChoice"></h3>
+        <h3 class="playerScore">Player Score: 0</h3>
+        <div class="playerImages">
+            <img src="../Rock-Paper-Scissors/images/6203-susrock.png" alt="rock" class="pImage" id="rock">
+            <img src="../Rock-Paper-Scissors/images/6754_roll_of_paper.png" alt="paper" class="pImage" id="paper">
+            <img src="../Rock-Paper-Scissors/images/9618_Ahegao_scissor.png" alt="scissors" class="pImage" id="scissors">
+        </div>
+    </div>
+    <div class="computerSection">
+        <h3 class="computerChoice"></h3>
+        <h3 class="computerScore"> Computer Score: 0</h3>
+        <div class="computerImages">
+            <img src="../Rock-Paper-Scissors/images/6203-susrock.png" alt="rock" class="pImage">
+            <img src="../Rock-Paper-Scissors/images/6754_roll_of_paper.png" alt="paper" class="pImage">
+            <img src="../Rock-Paper-Scissors/images/9618_Ahegao_scissor.png" alt="scissors" class="pImage">
+        </div>
+    </div>
 </body>
 </html>
